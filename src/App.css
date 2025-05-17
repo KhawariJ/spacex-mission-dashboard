@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+}
+
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.more-info {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.more-info:hover {
+  text-decoration: underline;
+}
+
+.loading {
+  padding: 30px;
+  text-align: center;
+  font-size: 1.2rem;
+}
